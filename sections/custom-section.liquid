@@ -2,6 +2,9 @@
 <h1>{{section.settings.text }}</h1>
 
 {% for block in section.blocks %}
+	{% if block.type == '@app' %}
+		{% render block %}
+	{% endif %}
 	<a href="{{ block.settings.url }}">{{ block.settings.text }}</a>
 {% endfor %}
 
@@ -22,6 +25,9 @@
 	"class": "custom-section",
 	"limit": 1,
 	"blocks": [
+		{
+			"type": "@app"
+		},
 		{
 			"name": "social links",
 			"type": "social",
