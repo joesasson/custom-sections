@@ -33,6 +33,18 @@
             "picker_type": "button"
           }
         },
+        "custom_liquid_HMa4mE": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<style>.custom.form__label{margin-bottom: 0.6rem}.field.custom{margin-top:0}.custom .field__input{padding-top:0.8rem}<\/style>  \n<label class=\"form__label custom\" for=\"camper-name\">Camper Name<\/label>\n<div class=\"field custom\">\n    <input class=\"field__input\" form=\"{{ 'product-form-' | append: section.id }}\" type=\"text\" id=\"camper-name\" name=\"properties[Camper Name]\">\n<\/div>"
+          }
+        },
+        "custom_liquid_bHJhMe": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"product-form__input product-form__input--dropdown\">\n<label class=\"form__label\">Camp Name<\/label>\n<div class=\"select\">\n<select class=\"select__select\" id=\"camp-name\" name=\"properties[Camp Name]\" form=\"{{ 'product-form-' | append: section.id }}\" required>\n    <option value=\"\" hidden selected>Please select<\/option>\n        <option value=\"Option1\">Option1<\/option>\n        <option value=\"Option2\">Option2<\/option>\n        <option value=\"Option3\">Option3<\/option>\n<\/select>\n<svg aria-hidden=\"true\" focusable=\"false\" class=\"icon icon-caret\" viewBox=\"0 0 10 6\">\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" \nd=\"M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z\" \nfill=\"currentColor\">\n<\/path><\/svg>\n<\/div><\/div>\n    <script>\n    document.addEventListener(\"DOMContentLoaded\", ()=>{document.querySelector(\"form[novalidate]\").removeAttribute(\"novalidate\")})\n    <\/script>"
+          }
+        },
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {
@@ -43,12 +55,6 @@
           "settings": {
             "show_dynamic_checkout": true,
             "show_gift_card_recipient": true
-          }
-        },
-        "custom_liquid_HMa4mE": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<style>.custom.form__label{margin-bottom: 0.6rem}.field.custom{margin-top:0}.custom .field__input{padding-top:0.8rem}<\/style>  \n<label class=\"form__label custom\" for=\"camper-name\">Camper Name<\/label>\n<div class=\"field custom\">\n    <input class=\"field__input\" form=\"{{ 'product-form-' | append: section.id }}\" type=\"text\" id=\"camper-name\" name=\"properties[Camper Name]\">\n<\/div>"
           }
         },
         "description": {
@@ -97,12 +103,6 @@
           "settings": {
             "share_label": "Share"
           }
-        },
-        "custom_liquid_bHJhMe": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<div class=\"product-form__input product-form__input--dropdown\">\n<label class=\"form__label\">Camp Name<\/label>\n<div class=\"select\">\n<select class=\"select__select\" id=\"camp-name\" name=\"properties[Camp Name]\" form=\"{{ 'product-form-' | append: section.id }}\" required>\n    <option value=\"\" hidden selected>Please select<\/option>\n        <option value=\"Option1\">Option1<\/option>\n        <option value=\"Option2\">Option2<\/option>\n        <option value=\"Option3\">Option3<\/option>\n<\/select>\n<svg aria-hidden=\"true\" focusable=\"false\" class=\"icon icon-caret\" viewBox=\"0 0 10 6\">\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" \nd=\"M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z\" \nfill=\"currentColor\">\n<\/path><\/svg>\n<\/div><\/div>\n    <script>\n    document.addEventListener(\"DOMContentLoaded\", ()=>{document.querySelector(\"form[novalidate]\").removeAttribute(\"novalidate\")})\n    <\/script>"
-          }
         }
       },
       "block_order": [
@@ -111,16 +111,16 @@
         "caption",
         "price",
         "variant_picker",
+        "custom_liquid_HMa4mE",
+        "custom_liquid_bHJhMe",
         "quantity_selector",
         "buy_buttons",
-        "custom_liquid_HMa4mE",
         "description",
         "collapsible-row-0",
         "collapsible-row-1",
         "collapsible-row-2",
         "collapsible-row-3",
-        "share",
-        "custom_liquid_bHJhMe"
+        "share"
       ],
       "settings": {
         "enable_sticky_info": true,
