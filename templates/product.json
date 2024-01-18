@@ -36,7 +36,7 @@
         "custom_liquid_HMa4mE": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<style>.custom.form__label{margin-bottom: 0.6rem}.field.custom{margin-top:0}.custom .field__input{padding-top:0.8rem}<\/style>  \n<label class=\"form__label custom\" for=\"camper-name\">Camper Name<\/label>\n<div class=\"field custom\">\n    <input class=\"field__input\" form=\"{{ 'product-form-' | append: section.id }}\" type=\"text\" id=\"camper-name\" name=\"properties[Camper Name]\">\n<\/div>"
+            "custom_liquid": "<style>.custom.form__label{margin-bottom: 0.6rem}.field.custom{margin-top:0}.custom .field__input{padding-top:0.8rem}<\/style>  \n<label class=\"form__label custom\" for=\"camper-name\">Camper Name<\/label>\n<div class=\"field custom\">\n    <input class=\"field__input\" form=\"{{ 'product-form-' | append: section.id }}\" type=\"text\" id=\"camper-name\" name=\"properties[Camper Name]\" required>\n<\/div>"
           }
         },
         "custom_liquid_bHJhMe": {
