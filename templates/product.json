@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -12,8 +21,7 @@
         },
         "title": {
           "type": "title",
-          "settings": {
-          }
+          "settings": {}
         },
         "caption": {
           "type": "text",
@@ -24,8 +32,7 @@
         },
         "price": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -36,19 +43,18 @@
         "custom_liquid_HMa4mE": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<style>.custom.form__label{margin-bottom: 0.6rem}.field.custom{margin-top:0}.custom .field__input{padding-top:0.8rem}<\/style>  \n<label class=\"form__label custom\" for=\"camper-name\">Camper Name<\/label>\n<div class=\"field custom\">\n    <input class=\"field__input\" form=\"{{ 'product-form-' | append: section.id }}\" type=\"text\" id=\"camper-name\" name=\"properties[Camper Name]\" required>\n<\/div>"
+            "custom_liquid": "<style>.custom.form__label{margin-bottom: 0.6rem}.field.custom{margin-top:0}.custom .field__input{padding-top:0.8rem}</style>  \n<label class=\"form__label custom\" for=\"camper-name\">Camper Name</label>\n<div class=\"field custom\">\n    <input class=\"field__input\" form=\"{{ 'product-form-' | append: section.id }}\" type=\"text\" id=\"camper-name\" name=\"properties[Camper Name]\" required>\n</div>"
           }
         },
         "custom_liquid_bHJhMe": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<div class=\"product-form__input product-form__input--dropdown\">\n<label class=\"form__label\">Camp Name<\/label>\n<div class=\"select\">\n<select class=\"select__select\" id=\"camp-name\" name=\"properties[Camp Name]\" form=\"{{ 'product-form-' | append: section.id }}\" required>\n    <option value=\"\" hidden selected>Please select<\/option>\n        <option value=\"Option1\">Option1<\/option>\n        <option value=\"Option2\">Option2<\/option>\n        <option value=\"Option3\">Option3<\/option>\n<\/select>\n<svg aria-hidden=\"true\" focusable=\"false\" class=\"icon icon-caret\" viewBox=\"0 0 10 6\">\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" \nd=\"M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z\" \nfill=\"currentColor\">\n<\/path><\/svg>\n<\/div><\/div>\n    <script>\n    document.addEventListener(\"DOMContentLoaded\", ()=>{document.querySelector(\"form[novalidate]\").removeAttribute(\"novalidate\")})\n    <\/script>"
+            "custom_liquid": "<div class=\"product-form__input product-form__input--dropdown\">\n<label class=\"form__label\">Camp Name</label>\n<div class=\"select\">\n<select class=\"select__select\" id=\"camp-name\" name=\"properties[Camp Name]\" form=\"{{ 'product-form-' | append: section.id }}\" required>\n    <option value=\"\" hidden selected>Please select</option>\n        <option value=\"Option1\">Option1</option>\n        <option value=\"Option2\">Option2</option>\n        <option value=\"Option3\">Option3</option>\n</select>\n<svg aria-hidden=\"true\" focusable=\"false\" class=\"icon icon-caret\" viewBox=\"0 0 10 6\">\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" \nd=\"M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z\" \nfill=\"currentColor\">\n</path></svg>\n</div></div>\n    <script>\n    document.addEventListener(\"DOMContentLoaded\", ()=>{document.querySelector(\"form[novalidate]\").removeAttribute(\"novalidate\")})\n    </script>"
           }
         },
         "quantity_selector": {
           "type": "quantity_selector",
-          "settings": {
-          }
+          "settings": {}
         },
         "buy_buttons": {
           "type": "buy_buttons",
@@ -59,8 +65,7 @@
         },
         "description": {
           "type": "description",
-          "settings": {
-          }
+          "settings": {}
         },
         "collapsible-row-0": {
           "type": "collapsible_tab",
@@ -125,12 +130,12 @@
       "settings": {
         "enable_sticky_info": true,
         "color_scheme": "",
-        "media_size": "large",
+        "media_size": "small",
         "constrain_to_viewport": true,
         "media_fit": "contain",
         "gallery_layout": "stacked",
         "media_position": "left",
-        "image_zoom": "lightbox",
+        "image_zoom": "none",
         "mobile_thumbnails": "hide",
         "hide_variants": true,
         "enable_video_looping": false,
@@ -151,7 +156,7 @@
         "image-with-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "text_style": "body"
           }
         }
@@ -182,7 +187,7 @@
           "type": "column",
           "settings": {
             "title": "Free Shipping",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
@@ -191,7 +196,7 @@
           "type": "column",
           "settings": {
             "title": "Hassle-Free Exchanges",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
